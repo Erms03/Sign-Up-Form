@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Norse";
-  src: url("C:/Users/erdwi/Downloads/Norse-Bold.otf") format("opentype");
+  src: url("src/Norse-Bold.otf") format("opentype");
 }
 * {
   font-family: Arial, Helvetica, sans-serif;
