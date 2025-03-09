@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página Web Completa</title>
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body>
+    <div class="image-logo-container">
+      <img
+        class="plant"
+        src="C:\Users\erdwi\Downloads\photo-1585202900225-6d3ac20a6962.avif"
+        alt="web-image"
+      />
+      <div class="logo-container">
+        <img
+          class="odin-logo"
+          src="C:\Users\erdwi\Downloads\odin-lined.png"
+          alt="logo"
+        />
+        <p class="logo-name">ODIN</p>
+      </div>
+      <p class="referency-image">
+        Foto tomada por <a href="">Halle West</a> on <a href="">Unsplash</a>
+      </p>
+    </div>
+    <form action="" method="post" id="form">
+      <p>
+        This is not an online real service! You know you need something like
+        this in your life to help you realize your deepset dreams
+      </p>
+      <p>Sign up <i>now</i> to get started</p>
+      <div class="form-container">
+        <p>Let's do this!</p>
+        <div>
+          <label for="first_name">First Name</label>
+          <input
+            type="text"
+            name="first_name"
+            id="first_name"
+            required
+            minlength="8"
+          />
+        </div>
+        <div>
+          <label for="last_name">Last Name</label>
+          <input
+            type="text"
+            name="last-name"
+            id="last-name"
+            required
+            minlength="8"
+          />
+        </div>
+        <div>
+          <label for="emai">Email</label>
+          <input type="email" name="emai" id="email" required />
+        </div>
+        <div>
+          <label for="phone">Phone Number</label>
+          <input type="tel" name="phone" id="phone" required min="8" />
+        </div>
+        <div>
+          <label for="password">Password</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            required
+            minlength="8"
+          />
+        </div>
+        <div>
+          <label for="confirm-password">Confirm Password</label>
+          <input
+            type="password"
+            name="confirm-password"
+            id="confirm-password"
+            required
+          />
+        </div>
+      </div>
+      <button type="submit">Create Account</button>
+      <p class="login">Already have an account? <a href="">Log in</a></p>
+    </form>
+    <script src="nuevaPrueba.js"></script>
+  </body>
+</html>
